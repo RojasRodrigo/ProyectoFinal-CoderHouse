@@ -83,6 +83,9 @@ nav{
     left: 0;
     display: flex;
     flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 .logopie{
     display: flex ;
@@ -324,9 +327,9 @@ padding: 1em;
     width: 40%;
     height: auto;
     float: right;
-    padding-top: none;
     border-style: double;
-    box-shadow: #400369;
+    opacity: .5;
+    
 }
 .jk{
     display: flex;
@@ -486,9 +489,11 @@ h4{
 }
 .textonosotros{
     color: white;
-    width: 70%;
+    width: 90%;
     align-content: center;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 30px;
 }
 /*----------------PAGINA TOP 3 MAS VISTOS-----------------------*/
 
@@ -497,8 +502,7 @@ h4{
     src: url(../assets/font/Ancherr-Personal-Use.ttf);
 }
 h5{
-    font-family: "Aa Ancher-Personal-Use.ttf";
-    src: url(../assets/font/Ancherr-Personal-Use.ttf);
+    
     color: rgb(248, 247, 247);
     text-align: left;
     padding: 65;
@@ -508,3 +512,26 @@ h5{
     padding-left: 5%;
     
 }
+.masvistos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50rem;
+    height: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    
+
+}
+.crsl{
+    width: 50%;
+    height: 5%;
+    display: flex;
+    margin-left: 25%;
+}
+    
+    

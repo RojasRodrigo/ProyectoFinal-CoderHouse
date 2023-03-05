@@ -1,17 +1,16 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Autores | Book Horror🤐</title>
 </head>
 <body class="fondoautores">
     <header class="navBack">
-        <div><img src="logo"src="assets/img/logo2.png" alt="logo sitio"></div>
         <h1>LIBROS DE TERROR</h1>
-            <hr>  
-            <div></div>
                 <nav>
                     <ul class="menu">
                         <li class="item"><a href="../index.html">Inicio</a></li>
@@ -33,39 +32,35 @@
         </ul>
     </nav>
     <!---------------------------------------carousel------------------------------------------------>
-            <section>
-                <div id="carouselExampleIndicators" class="carousel slide">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="../assets/img/StephenKing 1.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="../assets/img/StephenKing 2.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="../assets/img/peter 1.jpg" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
+<div class="crsl">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../assets/img/carousel/frases-stephen-king.jpg" class="d-block w-100" alt="sk">
+        </div>
+        <div class="carousel-item">
+            <img src="../assets/img/carousel/frases-jk.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="../assets/img/carousel/frases-dross.jpg" class="d-block w-100" alt="...">
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
 
             </section>
         <div class="gridautores">
-                <div id="Stephen King" style="margin-top: 500px;">
+                <div id="Stephen King" style="margin-top: 100px;">
                     <img class="sk" src="../assets/img/StephenKing 1.jpg" alt="stephen king">
-                    <h11 class="skingbibio">Stephen <span class="soloking">King</span></h11>
+                    <h7 class="skingbibio">Stephen <span class="soloking">King</span></h7>
                     <p>Stephen King
                         (Portland, Estados Unidos, 1947) Escritor estadounidense. Se ganó el favor de la crítica con su primera novela, Carrie (1974), a la que seguirían El resplandor (1977), que le valió un gran prestigio internacional, It (Eso, 1986), Misery (1987) e Insomnio (1994), por mencionar sólo algunos de sus mayores éxitos. Su estilo efectivo y directo, unido a su gran capacidad para destacar los aspectos más inquietantes de la cotidianidad, le han convertido en el especialista de literatura de terror (aunque ha realizado también incursiones en el género fantástico y de ciencia ficción) más vendido de la historia. Autor a su vez de relatos y guiones para la televisión, muchas de sus novelas han sido llevadas al cine.
                         Segundo hijo de Donald y Nelie Ruth Pillsbury King, tras la separación de sus padres se crió bajo la custodia materna junto con su hermano. Pasó parte de su infancia en Fort Wayne (Indiana) con sus abuelos paternos, y parte en Stratford (Connecticut). A los once años de edad se trasladó con su madre a Durhaim (Maine), donde ella trabajaba como cocinera en una residencia para deficientes mentales.
@@ -86,7 +81,7 @@
 
                 <div id="John Katzenbach" style="margin-top: 90px;">
                     <img class="jk" src="../assets/img/john kanzetbach 1.jpg" alt="john katzenbach">
-                    <h12 class="jhon-bibiografia">John <span class="solokatzenbach">Katzenbach</span> </h12>
+                    <h8 class="jhon-bibiografia">John <span class="solokatzenbach">Katzenbach</span> </h8>
                     <p>John Katzenbach tiene una larga carrera profesional como comunicador social especialista en asuntos judiciales, y ha logrado conjugar esta pericia con la escritura, logrando crear personajes de mentes retorcidas. Ha trabajado como cronista criminal para los periódicos The Miami News y The Miami Herald; además ha laborado como periodista en la revista Herald Tropic y en los periódicos de impresión masiva como The New York Times, The Washington Post y The Philadelphia Inquirer.
 
                         El Psicoanalista, John Katzenbach atrapó a los conocedores del género con una novela que se hizo best seller instantáneamente y llevó al escritor al nivel de maestro del suspenso psicológico. Sus escritos se caracterizan por poner al lector en estado de confusión y nervios con obras increíbles cargadas de suspenso, intriga y enigma, presentándonos personajes de mentes perturbadas y comprender el por qué de ciertas conductas humanas.
@@ -105,7 +100,7 @@
                 </div>
                 <div id="Dross Rotzank" style="margin-top: 50px;">
                     <img class="dr" src="../assets/img/dross 1.jpg" alt="dross">
-                    <h13 class="dross-bibiografia">Dross<span class ="solodross">Rotzank</span></h13>
+                    <h9 class="dross-bibiografia">Dross<span class ="solodross">Rotzank</span></h9>
                     <p>
                         Ángel David Revilla (16 de julio de 1982) es un youtuber y periodista venezolano, nacido en Caracas. Conocido en el mundo del internet bajo el seudónimo de «DrossRotzank», se considera fanático de los videojuegos y adquirió fama al subir vídeos sobre sus top 7 de temas e historias terroríficas, perturbadoras y misteriosas. También se ha hecho valer por incontables artículos escritos en su blog, El Diario de Dross, y varios libros de su autoría ya publicados. Si te interesa conocer la biografía de Dross, no dejes de leer.
                         Sus gustos por el género terrorífico
@@ -132,7 +127,7 @@
                 </div>
                 <div id="Peter Francis Straub" style="margin-top: 50px;">
                     <img class="peter" src="../assets/img/peter 1.jpg" alt="peter">
-                    <h14 class="peter-biografia">Peter Francis <span class="solopeter">Straub</span></h14>
+                    <h10 class="peter-biografia">Peter Francis <span class="solopeter">Straub</span></h10>
                     <p>
                         PETER STRAUB NACIÓ en Milwaukee, Wisconsin, el 2 de marzo de 1943, el primero de tres hijos de un vendedor y una enfermera. El vendedor quería que se convirtiera en atleta, la enfermera pensó que le iría bien como médico o ministro luterano, pero todo lo que quería hacer era aprender a leer.
                         Cuando el jardín de infantes resultó ser una decepción asombrosamente banal dedicada a cortar formas de animales con papel de colores pesados, tomó el asunto en sus propias manos y se enseñó a leer memorizando sus cómics y recitándolos una y otra vez a otros niños del vecindario en los escalones hasta que pudiera reconocer las palabras. Por lo tanto, cuando finalmente llegó al primer grado para encontrar a todos los demás trabajando en las aventuras imbéciles de Dick, Jane y Spot ( “ Ver Spot run. Mira, mira, mira, ” ), saqueó la biblioteca en busca de piratas, soldados, detectives, espías, delincuentes y otras almas coloridas. Pronto se había ganado una reputación como narrador de cuentos, en demanda alrededor de fogatas y patios traseros en las noches de verano.
@@ -149,16 +144,6 @@
 
                 </div>
         </div>
-
-
-
-
-
-
-
-
-
-
 
     <main>
 
@@ -194,7 +179,7 @@
                     <p>rojaz.soliz@gmail.com</p>
                 </div>
 
-                <h10> Suscribete</h8>
+                <h6> Suscribete</h6>
                 <form action="">
                     <input type="text" placeholder="Ingresa tu correo electrónico">
                     <button type="submit">Suscribirse</button>
@@ -209,7 +194,7 @@
                 
             </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-    
 </body>
 </html>
